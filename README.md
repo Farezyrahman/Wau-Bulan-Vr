@@ -19,9 +19,13 @@ The project serves as both an educational tool and cultural preservation initiat
 
 ## 📸 Screenshots
 
-| NPC Design | Crafting Station | Wau Bulan Flying |
+| NPC Design (Pakcik Hassan) | Crafting Station | Wau Bulan Flying |
 |:---:|:---:|:---:|
 | ![NPC Design](Screenshots/npc-design.png) | ![Crafting Station](Screenshots/crafting-station.png) | ![Wau Bulan Flying](Screenshots/wau-bulan-flying.png) |
+
+| NPC Design (Tok Ngah) | NPC Design (Pakcik Azeimi) | Knowledge Sharing Screen |
+|:---:|:---:|:---:|
+| ![NPC Tok Ngah](Screenshots/npc-design-tokngah.png) | ![NPC Pakcik Azeimi](Screenshots/npc-design-pakcikazeimi.png) | ![Knowledge Screen](Screenshots/knowledge-screen.png) |
 
 ---
 
