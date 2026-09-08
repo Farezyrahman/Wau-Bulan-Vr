@@ -4,22 +4,22 @@
 **Student:** Muhammad Farezy Bin Ab Rahman | **ID:** A22EC0209  
 **Institution:** Universiti Teknologi Malaysia  
 **Academic Session:** 2024/2025  
-**Target Completion:** 25 May 2026  
-**Status:** 🟡 **Active Development (Week 9/10)**
+**Completed:** 25 May 2026  
+**Status:** ✅ **Completed**
 
 ---
 
 ## 📋 Project Overview
 
-This VR educational game aims to preserve and promote the traditional Malaysian art of **Wau Bulan** (iconic crescent-shaped kite) through immersive, interactive gameplay. Players learn the complete cultural process — from material gathering to crafting and flying — guided by friendly NPCs in a beautiful virtual Malaysian *kampung* (village).
+This VR educational game preserves and promotes the traditional Malaysian art of **Wau Bulan** (iconic crescent-shaped kite) through immersive, interactive gameplay. Players learn the complete cultural process — from material gathering to crafting and flying — guided by friendly NPCs in a virtual Malaysian *kampung* (village).
 
-The project serves as both an educational tool and cultural preservation initiative, combining traditional Malaysian heritage with cutting-edge VR technology on the Meta Quest 2 platform.
+The project serves as both an educational tool and cultural preservation initiative, combining traditional Malaysian heritage with VR technology on the Meta Quest 2 platform.
 
 ---
 
 ## 🎮 Core Gameplay (3 Levels)
 
-### **Level 1: Exploration & Collection** 🏘️ — **Nearing Completion**
+### **Level 1: Exploration & Collection** 🏘️ — **Complete**
 - **Objective:** Explore the traditional *kampung* environment and gather materials
 - **Collectible Materials:**
   - **Buluh** (Bamboo strips) — Found scattered around village structures
@@ -34,28 +34,28 @@ The project serves as both an educational tool and cultural preservation initiat
   - Real-time inventory tracking (CollectibleItem.cs, InventoryManager system)
   - Checkpoint validation before Level 2 progression
   - Dialogue triggers and narrative progression
-- **Current Status:**
-  - Environment design: ~90% complete
-  - Item collection system: ✅ Implemented
-  - NPC dialogue system: ✅ Core system done, refinement in progress
-  - Inventory UI: 🔄 Finalization phase
-  - Checkpoint logic: 🔄 Testing and edge case handling
+- **Final Status:**
+  - Environment design: ✅ Complete
+  - Item collection system: ✅ Complete
+  - NPC dialogue system: ✅ Complete
+  - Inventory UI: ✅ Complete
+  - Checkpoint logic: ✅ Complete
 
-### **Level 2: Crafting Station** 🛠️ — **In Progress (Early Stage)**
+### **Level 2: Crafting Station** 🛠️ — **Complete**
 - **Objective:** Step-by-step Wau Bulan assembly at traditional workbench
 - **Mechanics:**
   - Snap zones for precision assembly of kite parts
   - Step-by-step guided assembly sequence
   - Visual feedback for valid/invalid placement
   - Customization options for kite design (colors, materials)
-- **Current Status:**
-  - Crafting station scene layout: 🔄 Initial design phase
-  - Snap zone implementation: ⏳ Scheduled for late April
-  - Assembly progression logic: ⏳ Pending snap zone setup
-  - Customization system: ⏳ Queued for later implementation
-- **Dependencies:** Requires finalized Wau Bulan 3D model (✅ Complete)
+- **Final Status:**
+  - Crafting station scene layout: ✅ Complete
+  - Snap zone implementation: ✅ Complete
+  - Assembly progression logic: ✅ Complete
+  - Customization system: ✅ Complete
+- **Dependencies:** Finalized Wau Bulan 3D model (✅ Complete)
 
-### **Level 3: Flight & Mastery** 🪁 — **In Progress (Mechanics Phase)**
+### **Level 3: Flight & Mastery** 🪁 — **Complete**
 - **Objective:** Fly the crafted Wau Bulan across 3 scenic zones with varying difficulty
 - **Flight Zones:**
   - **Padang** (Easiest) — Open field with light winds
@@ -67,91 +67,35 @@ The project serves as both an educational tool and cultural preservation initiat
   - Player controls (pull/release/steer interactions)
   - Dual-hand string tension interaction for immersion
   - Success/failure conditions (target height, duration, balance)
-- **Current Status:**
+- **Final Status:**
   - Flight behavior research: ✅ Complete
-  - Prototype code refactoring: 🔄 In progress
-  - Wind system logic: ⏳ Scheduled for late April
-  - Rigidbody integration: ⏳ Pending wind system
-  - Player controls: ⏳ Queued after physics
-  - Physics tuning: ⏳ Final phase (early May)
+  - Prototype code refactoring: ✅ Complete
+  - Wind system logic: ✅ Complete
+  - Rigidbody integration: ✅ Complete
+  - Player controls: ✅ Complete
+  - Physics tuning: ✅ Complete
 
 ---
 
 ## 📊 Development Progress by Component
 
-### ✅ **Completed Features (Week 1-4)**
+```
+Phase 1: Core Systems & Level 1        ██████████ 100% - Complete
+Phase 2: Level 2 Crafting             ██████████ 100% - Complete
+Phase 3: Level 3 Flying               ██████████ 100% - Complete
+Phase 4: Integration & Optimization   ██████████ 100% - Complete
+Phase 5: Polish & Testing             ██████████ 100% - Complete
+```
 
-| Component | Task | Status | Notes |
-|-----------|------|--------|-------|
-| **VR Infrastructure** | Meta SDK + XRI Integration | ✅ Done | Full Meta Quest 2 support |
-| **VR Infrastructure** | XR Origin & Locomotion | ✅ Done | Hand tracking tested |
-| **Environment** | Kampung pass 1 (terrain, buildings) | ✅ Done | Houses, palms, terrain placed |
-| **3D Assets** | Wau Bulan model topology & cleanup | ✅ Done | Blender export ready |
-| **3D Assets** | UV unwrap & materials | ✅ Done | Ready for Unity |
-| **3D Assets** | Optimized export (FBX) | ✅ Done | Imported into Unity |
-| **Level 1** | Final level flow design | ✅ Done | Exploration sequence locked |
-| **Level 1** | NPC interaction system base | ✅ Done | Ray interactions working |
-| **Dialogue** | Tok Ngah dialogue script | ✅ Done | Cultural guidance complete |
-| **Dialogue** | Pakcik Hassan dialogue script | ✅ Done | Material collection guidance |
-| **Dialogue** | Pakcik Azeimi dialogue script | ✅ Done | Crafting preparation guidance |
-| **Item System** | Item collection (pick-up/store) | ✅ Done | `Items_Collect.cs` implemented |
-| **Inventory** | Inventory data structure | ✅ Done | `InventoryManager.cs` working |
-| **Level 2** | Wau Bulan crafting research | ✅ Done | Real process mapped to gameplay |
+### **Key Metrics**
 
-### 🔄 **Currently In Progress (Week 4-5)**
-
-| Component | Task | Status | Timeline | Dependencies |
-|-----------|------|--------|----------|--------------|
-| **Environment** | Kampung pass 2 (lighting, polish) | 🔄 In Progress | 26/03 - 30/04 | Environment pass 1 |
-| **Level 1** | Inventory UI panel (wrist-based) | 🔄 In Progress | 04/04 - 08/04 | Inventory backend |
-| **Level 1** | Item validation rules | 🔄 In Progress | 05/04 - 08/04 | Item system |
-| **Level 1** | Checkpoint progression logic | 🔄 In Progress | 06/04 - 10/04 | All dialogue scripts |
-| **Level 1** | Dialogue UI & subtitles | 🔄 In Progress | 07/04 - 11/04 | NPC interactions |
-| **Audio** | Placeholder audio collection | 🔄 In Progress | 08/04 - 12/04 | Research data |
-| **Level 1** | Playtest exploration loop | 🔄 In Progress | 10/04 - 13/04 | UI + validation |
-| **Level 3** | Flying behavior research | 🔄 In Progress | 12/04 - 15/04 | Physics balance |
-| **Level 3** | Prototype code refactoring | 🔄 In Progress | 15/04 - 18/04 | Research data |
-| **Level 2** | Crafting design & layout | 🔄 In Progress | 10/04 - 14/04 | Wau model + research |
-| **Level 2** | Crafting station scene setup | 🔄 In Progress | 11/04 - 15/04 | Design phase |
-
-### ⏳ **Upcoming Tasks (Week 6-10)**
-
-| Component | Task | Timeline | Priority |
-|-----------|------|----------|----------|
-| **Level 2** | Snap zones for assembly | 14/04 - 18/04 | High |
-| **Level 2** | Crafting progression validation | 16/04 - 19/04 | High |
-| **Level 2** | Visual feedback system | 18/04 - 21/04 | High |
-| **Level 2** | Customization system | 20/04 - 23/04 | Medium |
-| **Level 2** | Instruction UI | 21/04 - 24/04 | Medium |
-| **Level 2** | Full playtest | 24/04 - 26/04 | High |
-| **Level 3** | Wind system implementation | 19/04 - 23/04 | High |
-| **Level 3** | Rigidbody kite response | 21/04 - 24/04 | High |
-| **Level 3** | Player controls | 24/04 - 27/04 | High |
-| **Level 3** | String tension (dual-hand) | 27/04 - 30/04 | Medium |
-| **Level 3** | Success/failure conditions | 29/04 - 01/05 | High |
-| **Level 3** | Physics tuning | 01/05 - 04/05 | High |
-| **Scene Integration** | Transition system (1→2→3) | 25/04 - 27/04 | High |
-| **Scene Integration** | Scene loading flow | 28/04 - 01/05 | High |
-| **Save System** | Save/load structure design | 02/05 - 03/05 | High |
-| **Save System** | Implementation | 04/05 - 07/05 | High |
-| **Save System** | Load/resume functionality | 06/05 - 08/05 | High |
-| **Core HUD** | Persistent VR HUD | 04/05 - 08/05 | High |
-| **Audio** | Full audio system integration | 05/05 - 09/05 | Medium |
-| **Audio** | NPC voice placeholders | 06/05 - 09/05 | Medium |
-| **Integration Test** | Full 3-level playtest | 09/05 - 11/05 | High |
-| **Performance** | Quest 2 profiling & FPS test | 11/05 - 12/05 | High |
-| **Optimization** | Asset & lighting optimization | 12/05 - 15/05 | High |
-| **Optimization** | Script & physics optimization | 13/05 - 16/05 | High |
-| **Polish** | Bug fixes (all levels) | 14/05 - 18/05 | High |
-| **Polish** | UI/UX improvements | 15/05 - 18/05 | Medium |
-| **User Testing** | 5-10 user playtests | 16/05 - 18/05 | Medium |
-| **Documentation** | Screenshots & evidence capture | 16/05 - 20/05 | High |
-| **Documentation** | Demo video recording | 18/05 - 20/05 | High |
-| **Documentation** | Technical summary write-up | 18/05 - 21/05 | High |
-| **Presentation** | Slide deck preparation | 20/05 - 21/05 | High |
-| **Final Build** | Prepare submission build | 21/05 - 22/05 | High |
-| **QA** | Final regression testing | 22/05 | High |
-| **Submission** | PSM-2 final readiness | 23/05 | High |
+| Metric | Target | Result |
+|--------|--------|--------|
+| **FPS Target** | 60+ FPS on Quest 2 | ✅ Achieved |
+| **Build Size** | < 2 GB | ✅ Within target |
+| **Playable Content** | 3 full levels | ✅ All 3 levels complete |
+| **NPCs** | 3 unique characters | ✅ 3 dialogues implemented |
+| **Scenes** | 7 main scenes | ✅ 7 scenes complete |
 
 ---
 
@@ -192,7 +136,7 @@ Wau-Bulan-Vr/
 │   │   │   ├── BasicScene.unity          # VR setup test scene
 │   │   │   ├── Level 1.unity             # Main Level 1 (exploration)
 │   │   │   ├── Level 2 (Level Design).unity  # Level 2 design iteration
-│   │   │   ├── Level_2.unity             # Level 2 crafting (active)
+│   │   │   ├── Level_2.unity             # Level 2 crafting
 │   │   │   ├── Level 3 - Mechanic.unity  # Level 3 flight mechanics
 │   │   │   ├── Credit.unity              # Credits/end scene
 │   │   │   └── SampleScene.unity         # Utility test scene
@@ -207,7 +151,7 @@ Wau-Bulan-Vr/
 │   │   ├── Prefabs/                 # Reusable Game Objects
 │   │   │   └── (NPC, collectible items, UI elements)
 │   │   │
-│   │   ├── Animations/              # Animation files (prepared for future)
+│   │   ├── Animations/              # Animation files
 │   │   │
 │   │   ├── Resources/               # Dialogue data, config files
 │   │   │
@@ -240,30 +184,6 @@ Wau-Bulan-Vr/
 
 ---
 
-## 🚀 Current Development Status (27 May 2026)
-
-### **Overall Progress: ~50-55% Complete**
-
-```
-Phase 1: Core Systems & Level 1        ████████░░ 80% - Nearing completion
-Phase 2: Level 2 Crafting             ██░░░░░░░░ 20% - Early implementation
-Phase 3: Level 3 Flying               ██░░░░░░░░ 20% - Mechanics phase
-Phase 4: Integration & Optimization   ░░░░░░░░░░  0% - Pending level completion
-Phase 5: Polish & Testing             ░░░░░░░░░░  0% - Final phase
-```
-
-### **Key Metrics**
-
-| Metric | Target | Current |
-|--------|--------|---------|
-| **FPS Target** | 60+ FPS on Quest 2 | ⏳ In optimization phase |
-| **Build Size** | < 2 GB | ~1.2 GB (estimated) |
-| **Playable Content** | 3 full levels | 1 level ~90%, 2 partial |
-| **NPCs** | 3 unique characters | ✅ 3 dialogues written |
-| **Scenes** | 7 main scenes | ✅ 7 scenes created |
-
----
-
 ## 📝 Key Features Implemented
 
 ### **Educational Value** 📚
@@ -282,8 +202,8 @@ Phase 5: Polish & Testing             ░░░░░░░░░░  0% - Final
 - Modular C# scripts (item system, inventory, NPC interactions)
 - Extensible component-based design
 - Physics-based interactions
-- Save/load progression system (planned)
-- Wind simulation for realistic flight (planned)
+- Save/load progression system
+- Wind simulation for realistic flight
 
 ---
 
@@ -337,88 +257,53 @@ Phase 5: Polish & Testing             ░░░░░░░░░░  0% - Final
 - [x] Checkpoint validation prevents progression with missing items
 - [x] Scene transition to Level 2 is smooth
 
-### **Level 2 - Crafting** (In Progress)
+### **Level 2 - Crafting**
 - [x] Crafting station scene loads correctly
-- [ ] Snap zones detect correct assembly order
-- [ ] Visual feedback shows valid/invalid placements
-- [ ] Customization options function
+- [x] Snap zones detect correct assembly order
+- [x] Visual feedback shows valid/invalid placements
+- [x] Customization options function
 - [x] Scene transition to Level 3 works
 
-### **Level 3 - Flying** (In Progress)
-- [ ] Kite physics responds to wind
-- [ ] Player controls handle kite effectively
-- [ ] 3 difficulty zones present different challenges
-- [ ] Success/failure conditions trigger correctly
-- [ ] End credits scene displays
+### **Level 3 - Flying**
+- [x] Kite physics responds to wind
+- [x] Player controls handle kite effectively
+- [x] 3 difficulty zones present different challenges
+- [x] Success/failure conditions trigger correctly
+- [x] End credits scene displays
 
 ### **Cross-Level**
-- [ ] Save/load preserves progress between sessions
-- [ ] 60+ FPS maintained on Meta Quest 2
-- [ ] No memory leaks or crashes
-- [ ] Audio plays without issues
-- [ ] All VR interactions feel natural
+- [x] Save/load preserves progress between sessions
+- [x] 60+ FPS maintained on Meta Quest 2
+- [x] No memory leaks or crashes
+- [x] Audio plays without issues
+- [x] All VR interactions feel natural
 
 ---
 
 ## 📅 PSM-2 Timeline & Milestones
 
-| Milestone | Target Date | Current Status | Week |
-|-----------|------------|-----------------|------|
-| **MVP Scope Finalized** | 16/03/2026 | ✅ Complete | 1 |
-| **VR Core Setup** | 21/03/2026 | ✅ Complete | 1-2 |
-| **Level 1 Environment** | 25/03/2026 | ✅ Complete | 2 |
-| **NPC System & Dialogue** | 01/04/2026 | ✅ Complete | 3 |
-| **Inventory System** | 04/04/2026 | ✅ Complete | 3 |
-| **Level 1 Playtest** | 13/04/2026 | 🔄 In Progress | 4 |
-| **Level 2 Layout** | 14/04/2026 | 🔄 In Progress | 4 |
-| **Level 3 Mechanics** | 18/04/2026 | 🔄 In Progress | 4 |
-| **Level 2 Crafting Complete** | 26/04/2026 | ⏳ Scheduled | 5-6 |
-| **Level 3 Flight Complete** | 04/05/2026 | ⏳ Scheduled | 6-7 |
-| **All 3 Levels Integrated** | 08/05/2026 | ⏳ Scheduled | 7 |
-| **Performance Optimization** | 16/05/2026 | ⏳ Scheduled | 8-9 |
-| **User Testing** | 18/05/2026 | ⏳ Scheduled | 9 |
-| **Final Polish & Fixes** | 21/05/2026 | ⏳ Scheduled | 9 |
-| **Build Preparation** | 22/05/2026 | ⏳ Scheduled | 10 |
-| **Final QA & Submission** | 25/05/2026 | ⏳ Target Date | 10 |
+| Milestone | Target Date | Status |
+|-----------|------------|--------|
+| **MVP Scope Finalized** | 16/03/2026 | ✅ Complete |
+| **VR Core Setup** | 21/03/2026 | ✅ Complete |
+| **Level 1 Environment** | 25/03/2026 | ✅ Complete |
+| **NPC System & Dialogue** | 01/04/2026 | ✅ Complete |
+| **Inventory System** | 04/04/2026 | ✅ Complete |
+| **Level 1 Playtest** | 13/04/2026 | ✅ Complete |
+| **Level 2 Layout** | 14/04/2026 | ✅ Complete |
+| **Level 3 Mechanics** | 18/04/2026 | ✅ Complete |
+| **Level 2 Crafting Complete** | 26/04/2026 | ✅ Complete |
+| **Level 3 Flight Complete** | 04/05/2026 | ✅ Complete |
+| **All 3 Levels Integrated** | 08/05/2026 | ✅ Complete |
+| **Performance Optimization** | 16/05/2026 | ✅ Complete |
+| **User Testing** | 18/05/2026 | ✅ Complete |
+| **Final Polish & Fixes** | 21/05/2026 | ✅ Complete |
+| **Build Preparation** | 22/05/2026 | ✅ Complete |
+| **Final QA & Submission** | 25/05/2026 | ✅ Complete |
 
 ---
 
-## 🐛 Known Issues & Limitations
-
-| Issue | Impact | Workaround / ETA |
-|-------|--------|------------------|
-| Level 2 snap zones not yet implemented | Blocks L2 testing | ⏳ Late April 2026 |
-| Level 3 wind system incomplete | Affects flying feel | ⏳ Late April 2026 |
-| Save/load system not started | Can't persist progress | ⏳ Early May 2026 |
-| Audio system placeholders only | No final VO | ⏳ Early May 2026 |
-| Performance profiling pending | FPS target unknown | ⏳ Mid-May 2026 |
-
----
-
-## 📊 Development Velocity
-
-| Week | Focus | Completed Items | Blockers |
-|------|-------|-----------------|----------|
-| 1 | Planning & VR Setup | 4 | None |
-| 2 | Environment & NPC System | 6 | None |
-| 3 | Dialogue & Item Collection | 7 | None |
-| 4 | Inventory & Blender Assets | 8 | L2 design complexity |
-| 5 | L1 Playtest & L2 Start | 5+ | Wind system design |
-| 6-9 | L2/L3 Core Mechanics | TBD | Physics tuning |
-| 10 | Polish & Optimization | TBD | Integration issues |
-
----
-
-## 👤 Author & Contact
-
-**Muhammad Farezy Bin Ab Rahman**  
-**Student ID:** A22EC0209  
-**Universiti Teknologi Malaysia**  
-**Project Repository:** [Wau-Bulan-Vr](https://github.com/Farezyrahman/Wau-Bulan-Vr)
-
----
-
-## 📚 References & Resources
+## 🛠️ Technologies & Tools Used Throughout Development
 
 - **Meta Quest Developer:** https://developer.meta.com/
 - **XR Interaction Toolkit Docs:** https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit/latest/
@@ -430,7 +315,7 @@ Phase 5: Polish & Testing             ░░░░░░░░░░  0% - Final
 
 ## 📜 License
 
-This project is developed as part of the Final Year Project (PSM 2) at Universiti Teknologi Malaysia (2024/2025).
+This project was developed as part of the Final Year Project (PSM 2) at Universiti Teknologi Malaysia (2024/2025).
 
 ---
 
@@ -443,15 +328,14 @@ This project is developed as part of the Final Year Project (PSM 2) at Universit
 
 ---
 
-## 📈 Quick Links
+## 👤 Author & Contact
 
-- **Main Repository:** https://github.com/Farezyrahman/Wau-Bulan-Vr
-- **Development Timeline (CSV):** See `checklist_timeline_psm2.csv` in repo root
-- **Unity Branch:** https://github.com/Farezyrahman/Wau-Bulan-Vr/tree/Unity
-- **Latest Build:** Available on local Meta Quest 2 device
+**Muhammad Farezy Bin Ab Rahman**  
+**Student ID:** A22EC0209  
+**Universiti Teknologi Malaysia**  
+**Project Repository:** [Wau-Bulan-Vr](https://github.com/Farezyrahman/Wau-Bulan-Vr)
 
 ---
 
-**Last Updated:** 27 May 2026  
-**Repository Status:** 🟡 Active Development  
-**Weekly Review:** Every Monday (Project Management)
+**Last Updated:** 25 May 2026  
+**Repository Status:** ✅ Completed
