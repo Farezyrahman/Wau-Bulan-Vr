@@ -17,6 +17,14 @@ The project serves as both an educational tool and cultural preservation initiat
 
 ---
 
+## 📸 Screenshots
+
+| NPC Design | Crafting Station | Wau Bulan Flying |
+|:---:|:---:|:---:|
+| ![NPC Design](Screenshots/npc-design.png) | ![Crafting Station](Screenshots/crafting-station.png) | ![Wau Bulan Flying](Screenshots/wau-bulan-flying.png) |
+
+---
+
 ## 🎮 Core Gameplay (3 Levels)
 
 ### **Level 1: Exploration & Collection** 🏘️ — **Complete**
