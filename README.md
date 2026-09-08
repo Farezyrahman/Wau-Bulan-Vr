@@ -27,6 +27,10 @@ The project serves as both an educational tool and cultural preservation initiat
 |:---:|:---:|:---:|
 | ![NPC Tok Ngah](Screenshots/npc-design-tokngah.png) | ![NPC Pakcik Azeimi](Screenshots/npc-design-pakcikazeimi.png) | ![Knowledge Screen](Screenshots/knowledge-screen.png) |
 
+### User Testing Sessions
+
+![User Testing](Screenshots/user-testing.png)
+
 ---
 
 ## 🎮 Core Gameplay (3 Levels)
