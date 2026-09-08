@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{498699C9-2FA1-020B-E03C-224680CB2D57}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\wau-bulan-vr\\wau bulan vr\\assets\\scripts\\lvl 2\\waumasterassembly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498699C9-2FA1-020B-E03C-224680CB2D57}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lvl 2\\waumasterassembly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498699C9-2FA1-020B-E03C-224680CB2D57}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\assets\\scripts\\lvl 2\\vrrevealbrush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498699C9-2FA1-020B-E03C-224680CB2D57}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lvl 2\\vrrevealbrush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\Assets\\Scripts\\Lvl 2\\WauCraftingManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Lvl 2\\WauCraftingManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498699C9-2FA1-020B-E03C-224680CB2D57}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\assets\\scripts\\lvl 2\\waupapersocketvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498699C9-2FA1-020B-E03C-224680CB2D57}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lvl 2\\waupapersocketvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WauMasterAssembly.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\Assets\\Scripts\\Lvl 2\\WauMasterAssembly.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lvl 2\\WauMasterAssembly.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\Assets\\Scripts\\Lvl 2\\WauMasterAssembly.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lvl 2\\WauMasterAssembly.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T18:09:12.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WauPaperSocketValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\Assets\\Scripts\\Lvl 2\\WauPaperSocketValidator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lvl 2\\WauPaperSocketValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\Assets\\Scripts\\Lvl 2\\WauPaperSocketValidator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lvl 2\\WauPaperSocketValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T14:21:04.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VRRevealBrush.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\Assets\\Scripts\\Lvl 2\\VRRevealBrush.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lvl 2\\VRRevealBrush.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\Assets\\Scripts\\Lvl 2\\VRRevealBrush.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lvl 2\\VRRevealBrush.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T14:13:47.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WauCraftingManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\Assets\\Scripts\\Lvl 2\\WauCraftingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lvl 2\\WauCraftingManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Wau-Bulan-Vr\\Wau Bulan Vr\\Assets\\Scripts\\Lvl 2\\WauCraftingManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lvl 2\\WauCraftingManager.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T14:10:03.143Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
